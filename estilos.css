@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+}
+.secao-topo , .rodape{
+    background:rgb(31, 7, 121);
+    padding:20px;
+}
+.secao-topo span{
+    margin-left:10%;
+    color:white;
+    font-size:25px;
+}
+.secao-topo a{
+    margin-left:2% ;
+    background-color: white;
+    color:rgb(31, 7, 121);
+    border-radius:10px;
+    text-decoration: none;
+    padding:5px;
+    font-size:20px ;
+    font-weight:bold;
+}
+.superman-capa{
+    width:100%;
+}
+.limita-largura{
+    width:70vw;
+    margin:0 auto;
+}
+.limita-largura p{
+    line-height: 19px;
+    font-size:17px;
+}
+.limita-largura h1{
+    text-align: center;
+}
+.HBO{
+    width:100%
+}
+.secao-overflow{
+    height: 280px;
+    display:flex;
+    overflow-x: scroll;
+}
+.secao-overflow img{
+    margin-right:30px;
+    height:250px;
+    min-width:calc(100% /3.2);
+}
+.rodape{
+    text-align: center;
+    color:white;
+}
+.imagem-sombra{
+    box-shadow:10px 10px 10px#939393;
+    /* Os dois primeiros elementos são respectivamente x y, o terceiro o desfoque, e um 4° valor para expandir a sompra
+    para todos lados, é possível alterar a cor adicionando um quinto valor */
+}
